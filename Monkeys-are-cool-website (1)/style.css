@@ -1,0 +1,21 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+    font-size: 700;
+    color: forestgreen;
+}
+#grad1 {
+  height: 100px;
+  background-color: #51f191; /* If the browser doesn't support gradients */ 
+  background-image: linear-gradient(green,yellow,blue,orange);
+}
+
+#hexen {
+  border: 5px solid indianred;
+  padding:11px;
+  border-radius: 15px;
+  font-family:"courier new";
+}
